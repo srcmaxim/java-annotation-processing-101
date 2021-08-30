@@ -1,4 +1,4 @@
-rootProject.name = 'java-annotation-processor'
+rootProject.name = 'java-annotation-processing-101'
 include('app')
 include('extention')
 include('extention:api')
