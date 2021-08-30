@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Gradle Imported" enabled="true">
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$PROJECT_DIR$/extention/processor/build/libs/processor.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.velocity/velocity-engine-core/2.3/e2133b723d0e42be74880d34de6bf6538ea7f915/velocity-engine-core-2.3.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-lang3/3.11/68e9a6adf7cf8eb7e9d31bbc554c7c75eeaac568/commons-lang3-3.11.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.30/b5a4b6d16ab13e34a88fae84c35cd5d68cac922c/slf4j-api-1.7.30.jar" />
+        </processorPath>
+        <module name="java-annotation-processor.app.main" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="16" />
+  </component>
+</project>

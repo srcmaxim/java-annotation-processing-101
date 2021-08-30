@@ -1,0 +1,23 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+group 'com.github.srcmaxim'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compileOnly(project(':extention:api'))
+    annotationProcessor(project(':extention:processor'))
+}
+
+jar {
+    manifest {
+        attributes(
+            "Main-Class": "com.github.srcmaxim.app.App"        
+        )
+    }
+}

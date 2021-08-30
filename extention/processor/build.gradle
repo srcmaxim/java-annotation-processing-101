@@ -1,0 +1,14 @@
+plugins {
+    id 'java'
+    id 'java-library'
+}
+
+group 'com.github.srcmaxim'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation('org.apache.velocity:velocity-engine-core:2.3')
+}
